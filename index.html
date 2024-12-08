@@ -2,26 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>My Portfolio</h1>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is where you can write about yourself.</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>This is where you can showcase your projects.</p>
-        </section>
-    </main>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <div class="profile">
+                <img src="your-photo.jpg" alt="Your Photo">
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p>
+                        <!-- Replace with your bio -->
+                        Hello! I'm [Your Name], a [Your Profession] with a passion for [Your Interests]. I specialize in [Your Skills] and enjoy building projects that [Your Motivation].
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div id="repos" class="repo-list">
+                <!-- GitHub repositories will be injected here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                <!-- Replace with your contact information or a contact form -->
+                Feel free to reach out via <a href="mailto:your.email@example.com">email</a> or connect with me on <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 My Portfolio</p>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- Link to JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
