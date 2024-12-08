@@ -1,10 +1,7 @@
-// Replace 'your-github-username' with your actual GitHub username
-const githubUsername = 'your-github-username';
+const githubUsername = 'BenjaminLTakaki';
 
-// GitHub API URL to fetch repositories
 const apiUrl = `https://api.github.com/users/${githubUsername}/repos?sort=updated&per_page=6`;
 
-// Function to fetch repositories
 async function fetchRepos() {
     try {
         const response = await fetch(apiUrl);
@@ -19,7 +16,6 @@ async function fetchRepos() {
     }
 }
 
-// Function to display repositories
 function displayRepos(repos) {
     const reposContainer = document.getElementById('repos');
     if (repos.length === 0) {
@@ -41,5 +37,4 @@ function displayRepos(repos) {
     });
 }
 
-// Fetch repositories when the page loads
 document.addEventListener('DOMContentLoaded', fetchRepos);
