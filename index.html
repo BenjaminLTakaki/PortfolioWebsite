@@ -3,70 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <!-- Link to CSS -->
+    <title>Benjamin Takaki - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts for better typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
+    <!-- Sidebar with Social Links -->
+    <aside class="sidebar">
+        <ul>
+            <li><a href="https://linkedin.com/in/benjamin-takaki-3a7aa3302" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/BenjaminLTakaki" target="_blank">GitHub</a></li>
+            <li><a href="mailto:bentakaki7@gmail.com">Email</a></li>
+        </ul>
+    </aside>
+
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-            <h1>Your Name</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Hello! I’m <span>Benjamin Takaki</span></h1>
+            <p>ICT student specializing in programming and innovative technology.</p>
+            <div class="cta-buttons">
+                <a href="resume.pdf" target="_blank" class="btn">Get Resume</a>
+                <a href="#about" class="btn secondary">Learn More</a>
+            </div>
         </div>
-    </header>
+        <div class="hero-image">
+            <img src="your-photo.jpg" alt="Benjamin Takaki">
+        </div>
+    </section>
 
     <!-- About Me Section -->
-    <section id="about">
+    <section id="about" class="about">
         <div class="container">
-            <div class="profile">
-                <img src="your-photo.jpg" alt="Your Photo">
-                <div class="bio">
-                    <h2>About Me</h2>
-                    <p>
-                        <!-- Replace with your bio -->
-                        Template
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div id="repos" class="repo-list">
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
+            <h2>About Me</h2>
             <p>
-                Feel free to reach out via <a href="bentakaki7@gmail.com">email</a> or connect with me on <a href="hhtps://linkedin.com/in/benjamin-takaki-3a7aa3302" target="_blank">LinkedIn</a>.
+                I am Benjamin Takaki, a first-year student at Fontys University of Applied Sciences, studying ICT with a passion for programming and innovative technology. 
+                My diverse educational background, which includes graduating from the Lycee Francais International de Tokyo and the rigorous American Section of the International Option of the French Baccalaureate, has provided me with a strong foundation in analytical thinking and problem-solving.
+            </p>
+            <p>
+                During my studies, I have developed skills in Python programming, creating projects like labyrinth solvers, image pixelators, and space invaders. 
+                I am particularly interested in software development and leveraging ICT to solve real-world challenges. Beyond academics, I have cultivated interpersonal and cross-cultural communication skills through international experiences and work as a camp counselor and waiter.
+            </p>
+            <p>
+                I am a multilingual individual fluent in English, French, and conversational Japanese, which allows me to adapt to diverse environments. I am eager to continue growing my technical expertise and contributing to innovative projects that make a difference.
             </p>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
         <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <h2>My GitHub Projects</h2>
+            <div id="repos" class="repo-list"></div>
         </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Benjamin Takaki. All rights reserved.</p>
     </footer>
 
-    <!-- Link to JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
