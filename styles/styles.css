@@ -152,6 +152,10 @@ body {
     width: 40px;
     height: 40px;
 }
+.sidebar .img1 {
+    width: 25.6px;
+    height: 19.2px;
+}
 
 .sidebar ul li a::before {
     content: '';
