@@ -1,5 +1,4 @@
 :root {
-    /* Adjusted Color Palette for Better Contrast */
     --background-dark: #0f1418;
     --background-secondary: #1e2a38;
     --text-primary: #ffffff;
@@ -185,7 +184,7 @@ body {
     padding: 0 5%;
     position: relative;
     overflow: hidden;
-    margin-top: 70px; /* To account for fixed header */
+    margin-top: 70px; /* Accounts for fixed header */
 }
 
 .hero::before {
