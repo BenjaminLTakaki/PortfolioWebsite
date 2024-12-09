@@ -119,7 +119,7 @@ body {
 }
 
 .sidebar:hover {
-    width: 200px;
+    width: 150px;
 }
 
 .sidebar ul {
@@ -148,8 +148,9 @@ body {
     font-weight: 500;
 }
 
-.sidebar ul li a i {
-    font-size: 1.2rem;
+.sidebar img {
+    width: 50px;
+    height: 50px;
 }
 
 .sidebar ul li a::before {
