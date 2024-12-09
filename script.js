@@ -1,7 +1,5 @@
-// Initialize EmailJS with your User ID
 emailjs.init("5XhzQ2uxmMYO1HHL_"); 
 
-// Mobile Nav Toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 
