@@ -31,7 +31,7 @@ const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    emailjs.sendForm('service_0uetwny', 'Gmail', this) // Replace with your Service ID and Template ID
+    emailjs.sendForm('service_0uetwny', 'template_r6nz0s3', this)
         .then(() => {
             alert('Message sent successfully!');
             contactForm.reset();
