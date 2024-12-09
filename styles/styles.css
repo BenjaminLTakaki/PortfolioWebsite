@@ -113,13 +113,13 @@ body {
     border-radius: 0 12px 12px 0;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 15px 0;
-    width: 60px;
+    width: 75px;
     transition: width 0.3s ease;
     z-index: 998;
 }
 
 .sidebar:hover {
-    width: 150px;
+    width: 75px;
 }
 
 .sidebar ul {
@@ -153,8 +153,8 @@ body {
     height: 40px;
 }
 .sidebar .img1 {
-    width: 25.6px;
-    height: 19.2px;
+    width: 51.2px;
+    height: 38.4px;
 }
 
 .sidebar ul li a::before {
