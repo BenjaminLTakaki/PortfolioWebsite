@@ -8,9 +8,9 @@
     --hover-overlay: rgba(76, 156, 255, 0.1);
     --error-color: #e53e3e;
 }
-html
+html *
 {
-    font-family: sans-serif;
+    font-family: sans-serif !important;
 }
 
 * {
